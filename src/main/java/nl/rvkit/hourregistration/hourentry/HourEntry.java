@@ -30,7 +30,6 @@ public class HourEntry {
     private int travelDistanceInKM;
     private boolean invoiced;
     @NonNull
-    @Column(nullable = false)
     @ManyToOne
     private Project project;
 }

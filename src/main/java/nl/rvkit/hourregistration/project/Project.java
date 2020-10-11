@@ -27,7 +27,6 @@ public class Project {
     private double rate;
     private boolean isDayRate;
     @NonNull
-    @Column(nullable = false)
     @ManyToOne
     private Employer employer;
     @OneToMany
