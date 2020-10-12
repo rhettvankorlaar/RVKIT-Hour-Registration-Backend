@@ -19,12 +19,6 @@ public class Employer {
     private long id;
     @NonNull
     @Column(nullable = false)
-    private String name;
-    @NonNull
-    @Column(nullable = false)
-    private String email;
-    @NonNull
-    @Column(nullable = false)
     private String authId;
     @OneToMany
     private List<Project> projects;
